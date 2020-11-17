@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Humidity</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+  
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="hmwk.html">Latitude</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+    
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+
+
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Plots
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="max_temp.html">Max Temperature</a>
+                <a class="dropdown-item" href="humidity.html">Humidity</a>
+                <a class="dropdown-item" href="cloudiness.html">Cloudiness</a>
+                <a class="dropdown-item" href="wind.html">Wind Speed</a>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="compare.html" tabindex="-1" aria-disabled="true">Comparison</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="data.html" tabindex="-1" aria-disabled="true">Data</a>
+            </li>
+          </ul>
+
+        </div>
+      </nav>
+
+    <div class="container">
+        <!-- First Row -->
+        <div class="row">  
+
+            <section>
+                <h4>Humidity</h4>
+            </section>
+
+        </div>
+
+        <div class="row">  
+
+            <div class="col-md-6">
+                <section>
+                    
+                    <article>
+                    <a target="_blank" href="assets/latvhumidity.png">
+                    <img src="assets/latvhumidity.png" alt="Humidity Map">
+                    </a>
+                    <p><em>Humidity Map</em></p>
+                </section>
+            </div>
+
+            <div class="col-md-6">
+                <div class="box">
+                    <h5>As shown by the plot, there does not appear to be a correlation between latitude and humidity.  The scatter of dots across all latitudes shows no relationship.  It is interesting, however, to note that the occurence 
+                        of low humidity at the equator is less common than higher humidity at the equator.  This is to be expected in a tropical climate.
+                    </h6>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+</body>
+</html>
